@@ -21,19 +21,11 @@ void AGenerator::BeginPlay()
 	UStaticMesh* MyStaticMesh = LoadObject<UStaticMesh>(nullptr, TEXT("/Game/tree/SM_Wood_plainTree02_Impostors.SM_Wood_plainTree02_Impostors"));
 	HISM->SetStaticMesh(MyStaticMesh);
 
-	FVector LocationI = FVector(-50, -50, 0);
-	for (int i = 0; i < 100; i++)
+	for (int i = 0; i < 50000; i++)
 	{
-		bool addXorY = ((int)FMath::RandRange(0, 1)) == 1;
-		if (addXorY)
-		{
-			LocationI.X += (int)FMath::RandRange(20, 150);
-		}
-		else
-		{
-			LocationI.Y += (int)FMath::RandRange(20, 150);
-		}
-		FTransform InstanceTransform(LocationI);
+		int X = (int)FMath::RandRange(-20000, 20000);
+		int Y = (int)FMath::RandRange(-20000, 20000);
+		FTransform InstanceTransform(FVector(X, Y, 0));
 		int32 InstanceIndex = HISM->AddInstance(InstanceTransform);
 	}
 }

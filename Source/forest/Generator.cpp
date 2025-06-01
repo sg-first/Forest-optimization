@@ -18,8 +18,8 @@ void AGenerator::BeginPlay()
 	Super::BeginPlay();
 
 	//FSoftObjectPath CityActorBpPath(TEXT("Blueprint'/Game/tree/SM_Wood_plainTree02_Impostors.SM_Wood_plainTree02_Impostors_C'"));
-	UStaticMesh* MyStaticMesh = LoadObject<UStaticMesh>(nullptr, TEXT("/Game/tree/SM_Wood_plainTree02_Impostors.SM_Wood_plainTree02_Impostors"));
-	HISM->SetStaticMesh(MyStaticMesh);
+	/* UStaticMesh* MyStaticMesh = LoadObject<UStaticMesh>(nullptr, TEXT("/Game/tree/SM_Wood_plainTree02_Impostors.SM_Wood_plainTree02_Impostors"));
+	HISM->SetStaticMesh(MyStaticMesh); */
 
 	for (int i = 0; i < 50000; i++)
 	{

@@ -43,7 +43,7 @@ void AGenerator::BeginPlay()
 	/* UStaticMesh* MyStaticMesh = LoadObject<UStaticMesh>(nullptr, TEXT("/Game/tree/SM_Wood_plainTree02_Impostors.SM_Wood_plainTree02_Impostors"));
 	HISM->SetStaticMesh(MyStaticMesh); */
 
-	for (int i = 0; i < 50000; i++)
+	for (int i = 0; i < Num; i++)
 	{
 		int X = (int)FMath::RandRange(-20000, 20000);
 		int Y = (int)FMath::RandRange(-20000, 20000);

@@ -33,3 +33,26 @@ FPS平均50左右
 ![1050](img/1050-1.jpg)
 ![1050](img/1050-2.jpg)
 ![1050](img/1050-3.jpg)
+
+Profile
+-----------
+
+## sceneRendering
+最终场景
+
+![stat](img/stat-sr.png)
+
+仅树
+
+![stat](img/stat-sr-raw.png)
+
+说明地形drawcall 400左右
+
+## engine
+最终场景
+
+![stat](img/stat-e.png)
+
+仅树
+
+![stat](img/stat-e-raw.png)

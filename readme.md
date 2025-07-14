@@ -56,3 +56,10 @@ Profile
 仅树
 
 ![stat](img/stat-e-raw.png)
+
+## session
+![session](img/session1.png)
+
+![session](img/session2.png)
+
+3060 4K全屏能提升5帧左右
